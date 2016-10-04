@@ -13,6 +13,7 @@ int main(int argc, char* argv[])
 	printf("재미있는 충돌!! ");
 	scanf("%d %c %d", &number1, &operator, &number2);
 
+
 	switch (operator)
 	{
 		case '+':
