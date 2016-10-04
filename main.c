@@ -10,7 +10,11 @@ int main(int argc, char* argv[])
 	int number1, number2, result;
 	char operator;
 
+<<<<<<< HEAD
+	printf("재미있는 충돌!! \n");
 	printf("Please enter a expression(ex> 1 + 2): ");
+=======
+>>>>>>> develop
 	scanf("%d %c %d", &number1, &operator, &number2);
 
 	switch (operator)
@@ -37,7 +41,7 @@ int main(int argc, char* argv[])
 int add(int number1, int number2)
 {
 	int result;
-	
+
 	result=number1+number2;
 	return result;
 }
