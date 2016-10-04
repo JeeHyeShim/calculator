@@ -31,7 +31,7 @@ int main(int argc, char* argv[])
 			break;
 	}
 
-	printf("result is %d.\n", result);
+	printf("result is %03d.\n", result);
 
 	return 0;
 }
