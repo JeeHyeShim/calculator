@@ -38,10 +38,7 @@ int main(int argc, char* argv[])
 
 int add(int number1, int number2)
 {
-	int result;
-
-	result=number1+number2;
-	return result;
+	return number1+number2;
 }
 
 int sub(int number1, int number2)
